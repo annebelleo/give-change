@@ -1625,9 +1625,20 @@
 
 	body {
 		background: #ffffff;
-    background-image: url("http://il6.picdn.net/shutterstock/videos/5098910/thumb/1.jpg")
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/4d/7a/63/4d7a63f21cac9345d517667e0886ea4d.jpg");
+    background-repeat: no-repeat;
+    max-width: 750%;
+    max-height: 750%;
+    background-size: cover;
 	}
-
+.refugeediv {
+  background-color: #ffffff;
+    width: 800px;
+    border: 25px #4d73af;
+    padding: 25px 25px;
+    margin: auto;
+    opacity: 0.80;
+}
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
@@ -1693,23 +1704,24 @@
 	}
 
 	h1 {
-		font-size: 2.75em;
+		font-size: 5.0em;
 		font-weight: 700;
 		line-height: 1.3;
 		margin: 0 0 1em 0;
 		letter-spacing: -0.035em;
+    color: #4d73af;
 /*     text-align: center; */
 	}
 
 		h1 a {
-			color: #4d73af;
+			color: #0e3470;
 /*       text-align: center; */
 		}
 
 		@media screen and (max-width: 736px) {
 
 			h1 {
-				font-size: 2em;
+				font-size: 3em;
 				margin: 0 0 1em 0;
         text-align: center;
 			}
@@ -1719,7 +1731,7 @@
 		@media screen and (max-width: 360px) {
 
 			h1 {
-				font-size: 1.75em;
+				font-size: 3.0em;
         text-align: center;
 			}
 
@@ -2867,7 +2879,7 @@
 		#header .logo {
 			display: block;
 			border-bottom: 0;
-			color: inherit;
+			color: 4d73af;
 			font-weight: 900;
 			letter-spacing: 0.35em;
 			margin: 0 0 2.5em 0;
