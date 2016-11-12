@@ -11,4 +11,7 @@ class MyApp < Sinatra::Base
     erb :refugee
   end
 
+  get 'zika.erb' do
+    erb :zika
+  end
 end
