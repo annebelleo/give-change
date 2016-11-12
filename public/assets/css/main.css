@@ -1639,6 +1639,10 @@
     margin: auto;
     opacity: 0.80;
 }
+
+.educationimg {
+  width: 25%
+}
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
@@ -2342,12 +2346,22 @@
 
 /* Image */
 
-	.image {
+
+  .refugeeimg {
+    width: 25%;
+  }
+   .image {
 		border-radius: 4px;
 		border: 0;
 		display: inline-block;
 		position: relative;
 	}
+
+.equalityimg {
+  width: 25%
+}
+
+.
 
 		.image img {
 			border-radius: 4px;
